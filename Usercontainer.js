@@ -16,7 +16,7 @@ function Usercontainer({userData, fetchUsers}){
     <div>
     { userData && 
         userData.users && 
-          userData.users.map(user => <p>{user.username}</p>)}
+          userData.users.map(user => <p>{user.name}</p>)}
     </div>
     </div>
   )
